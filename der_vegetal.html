@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/style.css" rel="stylesheet">
+    <title>Derivado Vegetal</title>
+
+</head>
+<header>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a id="title" class="navbar-brand" href="/home.html">Rio do Sul Agropecuário</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end mt-4" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/produtores.html">Produtores</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Produtos
+                        </a>
+                        <ul class="dropdown-menu text-left" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item text-dark" href="/frutas.html">Frutas</a></li>
+                            <li><a class="dropdown-item text-dark" href="/hortalicas.html">Hortaliças</a></li>
+                            <li><a class="dropdown-item text-dark" href="/der_animal.html">Derivado Animal</a></li>
+                            <li><a class="dropdown-item text-dark" href="/der_vegetal.html">Derivado Vegetal</a></li>
+                            <li><a class="dropdown-item text-dark" href="/outros.html">Outros</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/contatos.html">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+
+    <div class="row row-cols-lg-6 justify-content-center w-100">
+        <div class="card mt-5 p-0" style="width: 15rem;">
+            <img class="card-img-top my-1" src="/img/cadeado.png" style="height: 13rem;" alt="Imagem de capa do card">
+            <div id="cards" class="card-body">
+                <p class="card-text">linkar o nome e as informações dos Produtos</p>
+
+                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Ver Produtores
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col">Last</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="card mx-3 mt-5 p-0" style="width: 15rem;">
+            <img class="card-img-top my-1" src="/img/cadeado.png" style="height: 13rem;" alt="Imagem de capa do card">
+            <div id="cards" class="card-body">
+                <p class="card-text">linkar o nome e as informações dos Produtos</p>
+                <button type="button" class="btn btn-outline-light">Ver Produtores</button>
+            </div>
+        </div>
+        <div class="card mt-5 p-0" style="width: 15rem;">
+            <img class="card-img-top my-1" src="/img/cadeado.png" style="height: 13rem;" alt="Imagem de capa do card">
+            <div id="cards" class="card-body">
+                <p class="card-text">linkar o nome e as informações dos Produtos</p>
+                <button type="button" class="btn btn-outline-light">Ver Produtores</button>
+            </div>
+        </div>
+        <div class="card mx-3 mt-5 p-0" style="width: 15rem;">
+            <img class="card-img-top my-1" src="/img/cadeado.png" style="height: 13rem;" alt="Imagem de capa do card">
+            <div id="cards" class="card-body">
+                <p class="card-text">linkar o nome e as informações dos Produtos</p>
+                <button type="button" class="btn btn-outline-light">Ver Produtores</button>
+            </div>
+        </div>
+        <div class="card mt-5 p-0" style="width: 15rem;">
+            <img class="card-img-top my-1" src="/img/cadeado.png" style="height: 13rem;" alt="Imagem de capa do card">
+            <div id="cards" class="card-body">
+                <p class="card-text">linkar o nome e as informações dos Produtos</p>
+                <button type="button" class="btn btn-outline-light">Ver Produtores</button>
+            </div>
+        </div>
+        <div class="card mx-3 mt-5 p-0" style="width: 15rem;">
+            <img class="card-img-top my-1" src="/img/cadeado.png" style="height: 13rem;" alt="Imagem de capa do card">
+            <div id="cards" class="card-body">
+                <p class="card-text">linkar o nome e as informações dos Produtos</p>
+                <button type="button" class="btn btn-outline-light">Ver Produtores</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<footer class="footer fixed-bottom text-center text-white" style="background-color: #f1f1f1;">
+    <div class="container pt-4">
+        <section class="mb-4">
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+        </section>
+    </div>
+
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+</footer>
+
+</div>
+
+</html>
